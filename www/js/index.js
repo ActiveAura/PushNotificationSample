@@ -70,6 +70,7 @@ var app = {
                 {
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
+					document.getElementById("RegistrationID").value = e.regid;
                 }
             break;
  
