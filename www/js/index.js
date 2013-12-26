@@ -68,9 +68,10 @@ var app = {
             case 'registered':
                 if ( e.regid.length > 0 )
                 {
+					document.getElementById("RegistrationID").value = e.regid;
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
-					document.getElementById("RegistrationID").value = e.regid;
+					
                 }
             break;
  
